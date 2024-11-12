@@ -1,34 +1,19 @@
 import "./Navbar.css";
-
-export const changeTheme = () => {
-    const themeBtn = document.querySelector("#themeBtn");
-    themeBtn.addEventListener("click", () => {
-        document.body.classList.toggle("light");
-        changeText();
-    });
-};
-
-export const changeText = () => {
-    const themeBtn = document.querySelector("#themeBtn");
-    if (themeBtn.innerText === "☀") {
-        themeBtn.innerText = "☾";
-    } else {
-        themeBtn.innerText = "☀";
-    }
-};
-
 export const Navbar = () => `
 <nav>
-<h2>Peter Parker</h2>
+<h2>Alex Alvarez</h2>
 <ul>
     <li>
-        <a href="#" id="homelink">Home</a>
+        <a href="#" id="homelink">Inicio</a>
     </li>
     <li>
-        <a href="#" id="projectslink">Projects</a>
+        <a href="#" id="projectslink">Proyectos</a>
     </li>
     <li>
         <button id="themeBtn">☀</button>
+    </li>
+    <li>
+        <a href="https://github.com/Ratchet478/Proyecto2" id="github"><i class="fab fa-github"></i></a>
     </li>
 </ul>
 </nav>

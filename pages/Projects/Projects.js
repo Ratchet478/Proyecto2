@@ -9,7 +9,7 @@ export const Projects = () => {
     cleanPage(main);
     main.innerHTML = `
     <section class="projects">
-    <h2>Featured Projects</h2>
+    <h2>Todos mis proyectos</h2>
     ${Divider()}
     <div class="projects-container"></div>
     </section>`;
