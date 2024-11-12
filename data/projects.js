@@ -6,7 +6,7 @@ export const projects = [
             "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2VifGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
         tech: ["HTML5", "CSS3", "JavaScript", "Vite"],
         github: "https://github.com/Ratchet478/Proyecto2",
-        link: "www.proyecto1.com",
+        link: "https://proyecto2-two.vercel.app/",
     },
     {
         title: "Segundo proyecto",
